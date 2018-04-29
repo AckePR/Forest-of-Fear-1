@@ -200,7 +200,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400144, guid: faaa483347bc48d479eaaafc8213daa5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 40.34
       objectReference: {fileID: 0}
     - target: {fileID: 400144, guid: faaa483347bc48d479eaaafc8213daa5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -239,6 +239,7 @@ GameObject:
   - component: {fileID: 691350941}
   - component: {fileID: 691350940}
   - component: {fileID: 691350939}
+  - component: {fileID: 691350942}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -300,6 +301,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &691350942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 691350938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad4114c5a42d884c9809eb2fbf56ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 691350940}
+  changeHeightInUnits: 40
 --- !u!1 &1961313608
 GameObject:
   m_ObjectHideFlags: 0
